@@ -44,12 +44,12 @@ class TabLink {
     });
 
     // Select all of the elements with the .card class on them
-    const cards = querySelectorAll('.card');
+    const cards = document.querySelectorAll('.card');
 
     // Iterate through the NodeList setting the display style each one to 'none'
     cards.forEach( link => {
 
-      link.classList.style.display = 'none';
+      link.style.display = "none";
 
     });
 
@@ -67,7 +67,7 @@ class TabCard {
   }
   selectCard(){
     // Update the style of this.cardElement to display = "flex"
-    this.cardElement.stye.display = "flex";
+    this.cardElement.style.style.display = "flex";
   }
 
 }
