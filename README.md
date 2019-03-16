@@ -30,15 +30,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the DOM?
+1. What is the DOM? The dom is a data structure that acts like a tree, where parent elements have nested child elements which acts like leaves, and each branch of the dom can be a tree with it's own branches and child elements.
 
-2. What is an event?
+2. What is an event? Events are how javascript can interact with the html directly to make things like click events, hover events etc. 
 
-3. What is an event listener?
+3. What is an event listener? An event listener is a function that waits for a specific event before executing it's code. For example, you can have a click event that waits for the user to click on a button for the event to execute it's code a display some information.
 
-4. Why would we convert a NodeList into an Array?
+4. Why would we convert a NodeList into an Array? There are many methods that you can call upon standard arrays to change their functionality, like .map, .pop, .slice etc. with a nodelist, even though it behaves like an array, the amount of methods you can call upon it is limited compared to arrays.
 
-5. What is a component?
+5. What is a component? components are potentially re usable code with set behaviors. For example bootstrap is a component library where you can access reusable code with different behaviors like forms, buttons etc.
 
 ### Git Set up
 
